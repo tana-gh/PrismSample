@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="7.2.0.1233-pre" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PrismSample.Lib.Views\PrismSample.Lib.Views.csproj" />
+    <ProjectReference Include="..\PrismSample.Lib.ViewModels\PrismSample.Lib.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
